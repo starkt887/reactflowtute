@@ -1,5 +1,5 @@
 import { Box, IconButton, SvgIconProps, Typography } from '@mui/material'
-import React, { ReactElement, useEffect } from 'react'
+import { ReactElement, useEffect } from 'react'
 import { Handle, NodeProps, Position, useReactFlow } from 'reactflow'
 import CloseIcon from '@mui/icons-material/Close';
 import { IT1LeadSource, IT2ColdEmail, IT3Delay } from '../modal/INodeData.modal';

@@ -1,6 +1,5 @@
-import { Button, IconButton } from '@mui/material';
-import React from 'react'
-import { BaseEdge, EdgeLabelRenderer, EdgeProps, getSmoothStepPath, getStraightPath, useReactFlow } from 'reactflow';
+import { Button } from '@mui/material';
+import { BaseEdge, EdgeLabelRenderer, EdgeProps, getStraightPath, useReactFlow } from 'reactflow';
 import CloseIcon from '@mui/icons-material/Close';
 
 const CustomEdge = ({ id, sourceX, sourceY, targetX, targetY }: EdgeProps) => {

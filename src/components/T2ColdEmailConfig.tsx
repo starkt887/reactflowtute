@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useEffect, useState } from 'react'
+import { useState } from 'react'
 import { IT2ColdEmail } from '../modal/INodeData.modal'
 import { Box, Button, FormControl, MenuItem, Select, SelectChangeEvent, Typography } from '@mui/material'
 
@@ -23,7 +23,7 @@ const emailTemplates = [
     value: "follow-up"
   }
 ]
-const T2ColdEmailConfig = ({ data, setData }: Props) => {
+const T2ColdEmailConfig = ({  setData }: Props) => {
 
 
   const [selectedTemplate, setSelectedTemplate] = useState<string | number>(emailTemplates[0].id)

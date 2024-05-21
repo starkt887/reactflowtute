@@ -1,5 +1,5 @@
 import { Box, Button, FormControl, MenuItem, Select, SelectChangeEvent, TextField, Typography } from '@mui/material'
-import React, { ChangeEvent, useState } from 'react'
+import { ChangeEvent, useState } from 'react'
 import { IT3Delay } from '../modal/INodeData.modal'
 
 type Props = {
@@ -40,7 +40,7 @@ const waitTypes = [
   },
 ]
 
-const T3DelayConfig = ({ data, setData }: Props) => {
+const T3DelayConfig = ({ setData }: Props) => {
   const [delay, setDelay] = useState<number>()
   const [waitType, setWaitType] = useState<number>(waitTypes[0].id)
   const handleDelayChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

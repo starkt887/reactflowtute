@@ -1,6 +1,6 @@
-import { useCallback, useState } from 'react'
+import { useCallback } from 'react'
 import './App.css'
-import ReactFlow, { Background, BackgroundVariant, Controls, MiniMap, OnConnect, OnEdgesChange, OnNodesChange, OnNodesDelete, Panel, Position, addEdge, applyEdgeChanges, applyNodeChanges, getConnectedEdges, getIncomers, getOutgoers, useEdgesState, useNodesState, useReactFlow } from 'reactflow'
+import ReactFlow, { Background, BackgroundVariant, Controls, MiniMap, OnConnect, OnEdgesChange, OnNodesChange, OnNodesDelete, Panel, addEdge, applyEdgeChanges, applyNodeChanges, getConnectedEdges, getIncomers, getOutgoers, useEdgesState, useNodesState, useReactFlow } from 'reactflow'
 
 import 'reactflow/dist/style.css';
 

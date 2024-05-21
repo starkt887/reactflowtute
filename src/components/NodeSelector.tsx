@@ -1,5 +1,4 @@
-import { Box, Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material'
-import React, { useState } from 'react'
+import { Box, Button, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material'
 import NodeModal from './NodeModal';
 import {
     PersonAdd,
@@ -31,7 +30,6 @@ const NodeSelector = ({
     isAtInit,
     selectedNode,
     setSelectedNode,
-    data,
     setData,
     addNode }: Props) => {
 

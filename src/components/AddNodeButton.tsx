@@ -1,7 +1,6 @@
 import { Button } from '@mui/material'
-import { Edge, Node, addEdge, useReactFlow } from 'reactflow'
-import PersonAddIcon from '@mui/icons-material/PersonAdd';
-import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
+import { Edge, addEdge, useReactFlow } from 'reactflow'
+
 import NodeSelector from './NodeSelector';
 import { useState } from 'react';
 import { IT1LeadSource, IT2ColdEmail, IT3Delay } from '../modal/INodeData.modal';

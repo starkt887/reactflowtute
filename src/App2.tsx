@@ -3,13 +3,13 @@ import './App2.css'
 import ReactFlow, { Background, BackgroundVariant, Controls, MiniMap, OnConnect, OnEdgesChange, OnNodesChange, addEdge, applyEdgeChanges, applyNodeChanges, useEdgesState, useNodesState } from 'reactflow'
 
 import 'reactflow/dist/style.css';
-import { initialEdges, initialNodes } from './data/data'
+
 
 
 function App2() {
 
-  const [nodes, setNodes] = useNodesState(initialNodes)
-  const [edges, setEdges] = useEdgesState(initialEdges)
+  const [nodes, setNodes] = useNodesState([])
+  const [edges, setEdges] = useEdgesState([])
 
 
   const onNodesChange: OnNodesChange = useCallback(
