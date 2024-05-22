@@ -136,8 +136,8 @@ const AddNodeButton = () => {
                 }}>
                 Add node
             </Button>
-            <Button onClick={showData}>Show Data</Button>
-            <Button size='small' color='error' variant='contained' onClick={showNodes}>Show Nodes</Button>
+            {/* <Button onClick={showData}>Show Data</Button>
+            <Button size='small' color='error' variant='contained' onClick={showNodes}>Show Nodes</Button> */}
         </div>
     )
 }
